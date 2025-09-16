@@ -28,6 +28,7 @@ def main():
         return
     print()
     print(" 视频打开成功，开始处理...")
+    print("111")
     # 获取视频的宽度、高度和FPS
     frame_width = int(cap.get(cv2.CAP_PROP_FRAME_WIDTH))
     frame_height = int(cap.get(cv2.CAP_PROP_FRAME_HEIGHT))
